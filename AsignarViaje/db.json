@@ -1,0 +1,97 @@
+{
+  "vehiculos": [
+    {
+      "id": "1",
+      "placa": "PMA-7676"
+    },
+    {
+      "id": "2",
+      "placa": "PMA-7677"
+    },
+    {
+      "id": "3",
+      "placa": "PMA-7678"
+    },
+    {
+      "id": "4",
+      "placa": "PMA-7679"
+    },
+    {
+      "id": "5",
+      "placa": "PMA-7680"
+    },
+    {
+      "id": "6",
+      "placa": "PMA-7681"
+    }
+  ],
+  "direcciones": [
+    {
+      "direccion": "La Mariscal",
+      "id": "12be"
+    },
+    {
+      "direccion": "La Floresta",
+      "id": "c303"
+    },
+    {
+      "direccion": "El Condado",
+      "id": "fd4b"
+    },
+    {
+      "direccion": "Carcelén",
+      "id": "89f2"
+    },
+    {
+      "direccion": "El Inca",
+      "id": "b087"
+    },
+    {
+      "direccion": "Cumbayá",
+      "id": "ba79"
+    },
+    {
+      "direccion": "Tumbaco",
+      "id": "f10b"
+    },
+    {
+      "direccion": "Calderón",
+      "id": "c159"
+    },
+    {
+      "direccion": "Guápulo",
+      "id": "16d5"
+    },
+    {
+      "direccion": "Pomasqui",
+      "id": "f026"
+    }
+  ],
+  "viajes": [],
+  "chofer": [
+    {
+      "id": "1",
+      "nombre": "Augusto Salazar",
+      "cedula": "1727925602",
+      "telefono": "+593999893860"
+    },
+    {
+      "id": "2",
+      "nombre": "Erick Lasluisa",
+      "cedula": "1723452156",
+      "telefono": "+593982347297"
+    },
+    {
+      "id": "3",
+      "nombre": "Ariel Rivadeneira",
+      "cedula": "1723452156",
+      "telefono": "+593963776997"
+    },
+    {
+      "id": "4",
+      "nombre": "Francisco Quiroga",
+      "cedula": "0604637850",
+      "telefono": "+593988109026"
+    }
+  ]
+}
