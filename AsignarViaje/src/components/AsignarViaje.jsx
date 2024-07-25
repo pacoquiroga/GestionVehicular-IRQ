@@ -194,7 +194,7 @@ const AsignarViaje = ({ choferes, vehiculos, direcciones }) => {
                         <strong className="w-1/3 text-right">Vehículo Asignado: </strong>
                         <input
                             type="text"
-                            id="choferAsignado"
+                            id="vehiculoAsignado"
                             onChange={handleVehiculoChange}
                             value={placa}
                             className="ml-4 w-1/3 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
@@ -214,6 +214,7 @@ const AsignarViaje = ({ choferes, vehiculos, direcciones }) => {
                         <strong className="w-1/3 text-right">Punto Inicial: </strong>
                         <select
                             className="ml-4 w-1/3 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                            id="puntoInicial"
                             value={inicio}
                             onChange={handleInicioChange}
                         >
@@ -227,6 +228,7 @@ const AsignarViaje = ({ choferes, vehiculos, direcciones }) => {
                         <strong className="w-1/3 text-right">Punto Final: </strong>
                         <select
                             className="ml-4 w-1/3 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                            id="puntoFinal"
                             value={fin}
                             onChange={handleFinChange}
                         >
